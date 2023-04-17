@@ -66,7 +66,7 @@ class AddonBundle(object):
         'apps': 'apps'
     }
 
-    def __init__(self, bundle_id=None, sdk_foreign_source_id=None, developer_id=None, description=None, name=None, price=None, currency=None, scope=None, category_id=None, media=None, bundle_price=None, addons=None, media=None, apps=None, _configuration=None):  # noqa: E501
+    def __init__(self, bundle_id=None, sdk_foreign_source_id=None, developer_id=None, description=None, name=None, price=None, currency=None, scope=None, category_id=None, media=None, bundle_price=None, addons=None, apps=None, _configuration=None):  # noqa: E501
         """AddonBundle - a model defined in Swagger"""  # noqa: E501
         if _configuration is None:
             _configuration = Configuration()
@@ -84,7 +84,6 @@ class AddonBundle(object):
         self._media = None
         self._bundle_price = None
         self._addons = None
-        self._media = None
         self._apps = None
         self.discriminator = None
 
@@ -112,8 +111,6 @@ class AddonBundle(object):
             self.bundle_price = bundle_price
         if addons is not None:
             self.addons = addons
-        if media is not None:
-            self.media = media
         if apps is not None:
             self.apps = apps
 
