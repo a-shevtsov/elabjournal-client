@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.paged_of_equipment_log_large import PagedOfEquipmentLogLarge  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.paged_of_equipment_log_large import PagedOfEquipmentLogLarge  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestPagedOfEquipmentLogLarge(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestPagedOfEquipmentLogLarge(unittest.TestCase):
     def testPagedOfEquipmentLogLarge(self):
         """Test PagedOfEquipmentLogLarge"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.paged_of_equipment_log_large.PagedOfEquipmentLogLarge()  # noqa: E501
+        # model = elabjournal_client.models.paged_of_equipment_log_large.PagedOfEquipmentLogLarge()  # noqa: E501
         pass
 
 

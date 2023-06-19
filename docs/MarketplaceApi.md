@@ -1,4 +1,4 @@
-# swagger_client.MarketplaceApi
+# elabjournal_client.MarketplaceApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -22,18 +22,18 @@ Get an available addon by ID.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.MarketplaceApi(elabjournal_client.ApiClient(configuration))
 sdk_plugin_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -82,18 +82,18 @@ Get the script code of the specified available addon.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.MarketplaceApi(elabjournal_client.ApiClient(configuration))
 sdk_plugin_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -142,18 +142,18 @@ Get all available addons.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.MarketplaceApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -212,18 +212,18 @@ Check to see if current logged in user has addon with rootVar X enabled. If scop
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.MarketplaceApi(elabjournal_client.ApiClient(configuration))
 root_var = 'root_var_example' # str | 
 scope = 'scope_example' # str |  (optional)
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -268,18 +268,18 @@ Get icon by media ID.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.MarketplaceApi(elabjournal_client.ApiClient(configuration))
 id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -328,18 +328,18 @@ Get image by media ID.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.MarketplaceApi(elabjournal_client.ApiClient(configuration))
 id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -382,18 +382,18 @@ Check whether the required dependencies of the given addon are published.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.MarketplaceApi(elabjournal_client.ApiClient(configuration))
 sdk_plugin_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.quantity_clone_options import QuantityCloneOptions  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.quantity_clone_options import QuantityCloneOptions  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestQuantityCloneOptions(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestQuantityCloneOptions(unittest.TestCase):
     def testQuantityCloneOptions(self):
         """Test QuantityCloneOptions"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.quantity_clone_options.QuantityCloneOptions()  # noqa: E501
+        # model = elabjournal_client.models.quantity_clone_options.QuantityCloneOptions()  # noqa: E501
         pass
 
 

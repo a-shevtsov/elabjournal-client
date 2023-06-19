@@ -1,4 +1,4 @@
-# swagger_client.OrganisationsApi
+# elabjournal_client.OrganisationsApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -26,18 +26,18 @@ Find organisation by name
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
 name = 'name_example' # str | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -82,19 +82,19 @@ This call creates an active institute setting. Elab admins or organisation admin
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
-dto = swagger_client.InstituteSettingNew() # InstituteSettingNew | 
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
+dto = elabjournal_client.InstituteSettingNew() # InstituteSettingNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -137,20 +137,20 @@ This call creates a institute setting. Elab admins or organisation admins can on
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
 institute_id = 56 # int | 
-dto = swagger_client.InstituteSettingNew() # InstituteSettingNew | 
+dto = elabjournal_client.InstituteSettingNew() # InstituteSettingNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -194,18 +194,18 @@ This call deletes an institute setting. Elab admins or organisation admins can o
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
 institute_id = 56 # int | 
 institute_setting_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -251,18 +251,18 @@ This call deletes an active institute setting. Elab admins or organisation admin
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
 institute_setting_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -306,18 +306,18 @@ This call fetches an active institute setting. Elab admins or organisation admin
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
 institute_setting_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -361,18 +361,18 @@ This call fetches institute group settings. Elab admins or organisation admins c
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
 view_columns = 'view_columns_example' # str | Specify viewColumns to extend the result (optional)
@@ -422,18 +422,18 @@ This call fetches an institute setting. Elab admins or organisation admins can o
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
 institute_id = 56 # int | 
 institute_setting_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -479,18 +479,18 @@ This call fetches all institute settings. The results can be filtered on a singl
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
 group_id = 56 # int | 
 institute_id = 'institute_id_example' # str | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
@@ -544,20 +544,20 @@ This call updates an active institute setting. Elab admins or organisation admin
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
 institute_setting_id = 56 # int | 
-dto = swagger_client.InstituteSettingNew() # InstituteSettingNew | 
+dto = elabjournal_client.InstituteSettingNew() # InstituteSettingNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -601,21 +601,21 @@ This call updates an institute setting. Elab admins or organisation admins can o
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.OrganisationsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.OrganisationsApi(elabjournal_client.ApiClient(configuration))
 institute_id = 56 # int | 
 institute_settings_id = 56 # int | 
-dto = swagger_client.InstituteSettingNew() # InstituteSettingNew | 
+dto = elabjournal_client.InstituteSettingNew() # InstituteSettingNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:

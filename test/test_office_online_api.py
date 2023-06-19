@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.office_online_api import OfficeOnlineApi  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.api.office_online_api import OfficeOnlineApi  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestOfficeOnlineApi(unittest.TestCase):
     """OfficeOnlineApi unit test stubs"""
 
     def setUp(self):
-        self.api = swagger_client.api.office_online_api.OfficeOnlineApi()  # noqa: E501
+        self.api = elabjournal_client.api.office_online_api.OfficeOnlineApi()  # noqa: E501
 
     def tearDown(self):
         pass

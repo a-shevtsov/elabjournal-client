@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.paged_of_view import PagedOfView  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.paged_of_view import PagedOfView  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestPagedOfView(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestPagedOfView(unittest.TestCase):
     def testPagedOfView(self):
         """Test PagedOfView"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.paged_of_view.PagedOfView()  # noqa: E501
+        # model = elabjournal_client.models.paged_of_view.PagedOfView()  # noqa: E501
         pass
 
 

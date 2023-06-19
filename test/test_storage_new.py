@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.storage_new import StorageNew  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.storage_new import StorageNew  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestStorageNew(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestStorageNew(unittest.TestCase):
     def testStorageNew(self):
         """Test StorageNew"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.storage_new.StorageNew()  # noqa: E501
+        # model = elabjournal_client.models.storage_new.StorageNew()  # noqa: E501
         pass
 
 

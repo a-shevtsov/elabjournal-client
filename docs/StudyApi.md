@@ -1,4 +1,4 @@
-# swagger_client.StudyApi
+# elabjournal_client.StudyApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -20,20 +20,20 @@ This endpoint creates a new request to sign a study. Only to be used with SAML.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StudyApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StudyApi(elabjournal_client.ApiClient(configuration))
 study_id = 56 # int | 
-experimentids = [swagger_client.list[int]()] # list[int] | 
+experimentids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -77,19 +77,19 @@ This endpoint creates a new study associated with a given project but does not p
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StudyApi(swagger_client.ApiClient(configuration))
-new_study = swagger_client.StudyLimited() # StudyLimited | 
+api_instance = elabjournal_client.StudyApi(elabjournal_client.ApiClient(configuration))
+new_study = elabjournal_client.StudyLimited() # StudyLimited | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -131,18 +131,18 @@ Get studies
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StudyApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StudyApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)

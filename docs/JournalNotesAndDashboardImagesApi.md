@@ -1,4 +1,4 @@
-# swagger_client.JournalNotesAndDashboardImagesApi
+# elabjournal_client.JournalNotesAndDashboardImagesApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -27,19 +27,19 @@ Create a new note
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
-dto = swagger_client.NoteNew() # NoteNew | 
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
+dto = elabjournal_client.NoteNew() # NoteNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -81,18 +81,18 @@ Deletes a note
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 note_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -134,18 +134,18 @@ Deletes a note image
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 note_image_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -187,18 +187,18 @@ Deletes several note images
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
 view_columns = 'view_columns_example' # str | Specify viewColumns to extend the result (optional)
@@ -246,18 +246,18 @@ Deletes several notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
 view_columns = 'view_columns_example' # str | Specify viewColumns to extend the result (optional)
@@ -305,18 +305,18 @@ Download a note image by id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 note_image_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -367,18 +367,18 @@ Gets a note by id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 note_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -427,18 +427,18 @@ Get a digest of all your notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -491,18 +491,18 @@ Get a digest of your note images
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -555,18 +555,18 @@ Gets your notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -623,20 +623,20 @@ Updates a note's properties
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 note_id = 56 # int | 
-dto = swagger_client.NoteUpdate() # NoteUpdate | 
+dto = elabjournal_client.NoteUpdate() # NoteUpdate | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -680,18 +680,18 @@ Upload a note image
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.JournalNotesAndDashboardImagesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.JournalNotesAndDashboardImagesApi(elabjournal_client.ApiClient(configuration))
 file_name = 'file_name_example' # str | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 

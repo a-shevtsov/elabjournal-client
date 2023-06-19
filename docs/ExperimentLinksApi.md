@@ -1,4 +1,4 @@
-# swagger_client.ExperimentLinksApi
+# elabjournal_client.ExperimentLinksApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -18,18 +18,18 @@ Get all experiments linked to specified experiment.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentLinksApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentLinksApi(elabjournal_client.ApiClient(configuration))
 experiment_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -84,20 +84,20 @@ Link an experiment to the specified experiment.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentLinksApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentLinksApi(elabjournal_client.ApiClient(configuration))
 experiment_id = 56 # int | 
-target_experiment_ids = [swagger_client.list[int]()] # list[int] | 
+target_experiment_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -139,20 +139,20 @@ Unlink an experiment to the specified experiment.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentLinksApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentLinksApi(elabjournal_client.ApiClient(configuration))
 experiment_id = 56 # int | 
-target_experiment_ids = [swagger_client.list[int]()] # list[int] | 
+target_experiment_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:

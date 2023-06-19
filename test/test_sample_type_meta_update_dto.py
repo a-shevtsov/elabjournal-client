@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.sample_type_meta_update_dto import SampleTypeMetaUpdateDto  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.sample_type_meta_update_dto import SampleTypeMetaUpdateDto  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestSampleTypeMetaUpdateDto(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestSampleTypeMetaUpdateDto(unittest.TestCase):
     def testSampleTypeMetaUpdateDto(self):
         """Test SampleTypeMetaUpdateDto"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.sample_type_meta_update_dto.SampleTypeMetaUpdateDto()  # noqa: E501
+        # model = elabjournal_client.models.sample_type_meta_update_dto.SampleTypeMetaUpdateDto()  # noqa: E501
         pass
 
 

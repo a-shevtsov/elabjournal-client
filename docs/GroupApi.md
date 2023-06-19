@@ -1,4 +1,4 @@
-# swagger_client.GroupApi
+# elabjournal_client.GroupApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -32,18 +32,18 @@ The active group determines what other API calls return and what access you have
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
 view_columns = 'view_columns_example' # str | Specify viewColumns to extend the result (optional)
@@ -90,18 +90,18 @@ Get all groups that you have joined
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -154,18 +154,18 @@ Get members of groups that you have joined. You need to have View User permissio
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 group_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -208,18 +208,18 @@ Search groups by searchterms
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 name = 'name_example' # str | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -264,18 +264,18 @@ The active group determines what other API calls return and what access you have
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 group_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -319,19 +319,19 @@ This call creates an active group setting.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
-dto = swagger_client.GroupSettingNew() # GroupSettingNew | 
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
+dto = elabjournal_client.GroupSettingNew() # GroupSettingNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -374,20 +374,20 @@ This call creates a group setting.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 group_id = 56 # int | 
-dto = swagger_client.GroupSettingNew() # GroupSettingNew | 
+dto = elabjournal_client.GroupSettingNew() # GroupSettingNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -431,18 +431,18 @@ This call deletes an active group setting.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 group_setting_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -486,18 +486,18 @@ This call deletes a group setting.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 group_id = 56 # int | 
 group_setting_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -543,18 +543,18 @@ This call fetches an active group setting.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 group_setting_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -598,18 +598,18 @@ This call fetches active group settings.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
 view_columns = 'view_columns_example' # str | Specify viewColumns to extend the result (optional)
@@ -659,18 +659,18 @@ This call fetches a single group setting.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 group_id = 56 # int | 
 group_settings_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -716,18 +716,18 @@ This call gets all group settings. The results can be filtered on a single key o
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 group_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -779,20 +779,20 @@ This call updates an active group setting.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 group_setting_id = 56 # int | 
-dto = swagger_client.GroupSettingNew() # GroupSettingNew | 
+dto = elabjournal_client.GroupSettingNew() # GroupSettingNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -836,21 +836,21 @@ This call updates a group setting.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.GroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.GroupApi(elabjournal_client.ApiClient(configuration))
 group_id = 56 # int | 
 group_setting_id = 56 # int | 
-dto = swagger_client.GroupSettingNew() # GroupSettingNew | 
+dto = elabjournal_client.GroupSettingNew() # GroupSettingNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:

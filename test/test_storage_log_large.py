@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.storage_log_large import StorageLogLarge  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.storage_log_large import StorageLogLarge  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestStorageLogLarge(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestStorageLogLarge(unittest.TestCase):
     def testStorageLogLarge(self):
         """Test StorageLogLarge"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.storage_log_large.StorageLogLarge()  # noqa: E501
+        # model = elabjournal_client.models.storage_log_large.StorageLogLarge()  # noqa: E501
         pass
 
 

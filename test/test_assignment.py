@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.assignment import Assignment  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.assignment import Assignment  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestAssignment(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestAssignment(unittest.TestCase):
     def testAssignment(self):
         """Test Assignment"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.assignment.Assignment()  # noqa: E501
+        # model = elabjournal_client.models.assignment.Assignment()  # noqa: E501
         pass
 
 

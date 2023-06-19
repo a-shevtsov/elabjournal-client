@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.currency_api import CurrencyApi  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.api.currency_api import CurrencyApi  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestCurrencyApi(unittest.TestCase):
     """CurrencyApi unit test stubs"""
 
     def setUp(self):
-        self.api = swagger_client.api.currency_api.CurrencyApi()  # noqa: E501
+        self.api = elabjournal_client.api.currency_api.CurrencyApi()  # noqa: E501
 
     def tearDown(self):
         pass

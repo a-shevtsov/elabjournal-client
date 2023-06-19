@@ -1,4 +1,4 @@
-# swagger_client.AddOnOAuthApi
+# elabjournal_client.AddOnOAuthApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -23,20 +23,20 @@ Creates a OAuth 2.0 configuration to be used by a addon installed via the eLab M
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnOAuthApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnOAuthApi(elabjournal_client.ApiClient(configuration))
 sdk_plugin_id = 56 # int | 
-o_auth_configuration = swagger_client.OAuthConfiguration() # OAuthConfiguration | 
+o_auth_configuration = elabjournal_client.OAuthConfiguration() # OAuthConfiguration | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -80,18 +80,18 @@ Retrieve the access token for the given sdkPluginID
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnOAuthApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnOAuthApi(elabjournal_client.ApiClient(configuration))
 sdk_plugin_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -143,18 +143,18 @@ Retrieve the OAuth 2.0 request URL for the given sdkPluginID
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnOAuthApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnOAuthApi(elabjournal_client.ApiClient(configuration))
 sdk_plugin_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -198,18 +198,18 @@ Retrieve the OAuth 2.0 config  for the given sdkPluginID
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnOAuthApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnOAuthApi(elabjournal_client.ApiClient(configuration))
 sdk_plugin_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -253,18 +253,18 @@ Refresh the access and refresh token for the given sdkPluginID
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnOAuthApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnOAuthApi(elabjournal_client.ApiClient(configuration))
 sdk_plugin_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -316,20 +316,20 @@ Request a access and refresh token with a short lived `code` property.   Example
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnOAuthApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnOAuthApi(elabjournal_client.ApiClient(configuration))
 sdk_plugin_id = 56 # int | 
-token_request = swagger_client.TokenRequest() # TokenRequest | 
+token_request = elabjournal_client.TokenRequest() # TokenRequest | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
 view_columns = 'view_columns_example' # str | Specify viewColumns to extend the result (optional)

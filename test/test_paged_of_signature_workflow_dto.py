@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.paged_of_signature_workflow_dto import PagedOfSignatureWorkflowDTO  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.paged_of_signature_workflow_dto import PagedOfSignatureWorkflowDTO  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestPagedOfSignatureWorkflowDTO(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestPagedOfSignatureWorkflowDTO(unittest.TestCase):
     def testPagedOfSignatureWorkflowDTO(self):
         """Test PagedOfSignatureWorkflowDTO"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.paged_of_signature_workflow_dto.PagedOfSignatureWorkflowDTO()  # noqa: E501
+        # model = elabjournal_client.models.paged_of_signature_workflow_dto.PagedOfSignatureWorkflowDTO()  # noqa: E501
         pass
 
 

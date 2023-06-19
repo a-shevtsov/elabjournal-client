@@ -1,4 +1,4 @@
-# swagger_client.FileAndMetaFileStorageApi
+# elabjournal_client.FileAndMetaFileStorageApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -26,18 +26,18 @@ Get a tiff file by file id from your current group, and converts it to a png dat
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 file_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -90,18 +90,18 @@ Deletes a file from the file storage. The file will still be available for downl
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 file_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -146,18 +146,18 @@ Gets file IDs and other data associated with stored files from your group.  Resu
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -222,18 +222,18 @@ This call returns the version of the file associated with the fileID passed as p
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 file_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -276,18 +276,18 @@ Get a file by group and file id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 group_id = 56 # int | 
 file_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -334,18 +334,18 @@ This call returns the latest version of the file within its lineage, regardless 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 file_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -388,18 +388,18 @@ Get a meta file by file id from your current group
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 meta_file_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -442,18 +442,18 @@ Get a meta file by group and file id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 group_id = 56 # int | 
 meta_file_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -500,18 +500,18 @@ Files can be a maximum size of 250 mb. Currently only supports local storage. A 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 file_name = 'file_name_example' # str | 
 url = 'url_example' # str |  (optional)
 folder_id = 56 # int |  (optional)
@@ -560,18 +560,18 @@ Files can be a maximum size of 250 mb. Currently only supports local storage. A 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 file_name = 'file_name_example' # str | 
 description = 'description_example' # str |  (optional)
 url = 'url_example' # str |  (optional)
@@ -620,18 +620,18 @@ Files uploaded with this API call will be stored in a general experiment storage
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.FileAndMetaFileStorageApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.FileAndMetaFileStorageApi(elabjournal_client.ApiClient(configuration))
 file_name = 'file_name_example' # str | 
 total_chunks = 56 # int | 
 chunk = 56 # int | 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.experiment_signature_pre_declined_large import ExperimentSignaturePreDeclinedLarge  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.experiment_signature_pre_declined_large import ExperimentSignaturePreDeclinedLarge  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestExperimentSignaturePreDeclinedLarge(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestExperimentSignaturePreDeclinedLarge(unittest.TestCase):
     def testExperimentSignaturePreDeclinedLarge(self):
         """Test ExperimentSignaturePreDeclinedLarge"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.experiment_signature_pre_declined_large.ExperimentSignaturePreDeclinedLarge()  # noqa: E501
+        # model = elabjournal_client.models.experiment_signature_pre_declined_large.ExperimentSignaturePreDeclinedLarge()  # noqa: E501
         pass
 
 

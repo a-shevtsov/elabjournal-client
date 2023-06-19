@@ -1,4 +1,4 @@
-# swagger_client.TaskManagementApi
+# elabjournal_client.TaskManagementApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -30,19 +30,19 @@ Updates multiple task statuses. The valid statuses are: 'ASSIGNED', 'PROGRESS', 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
-bulk_status_update = swagger_client.TaskBulkStatusUpdate() # TaskBulkStatusUpdate | 
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
+bulk_status_update = elabjournal_client.TaskBulkStatusUpdate() # TaskBulkStatusUpdate | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -85,19 +85,19 @@ Creates a task. The required fields are 'assigneeID' and 'status'. If the assign
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
-task = swagger_client.TaskNew() # TaskNew | 
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
+task = elabjournal_client.TaskNew() # TaskNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -140,18 +140,18 @@ Creates a link between an experiment and a task.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
 task_id = 56 # int | 
 target_experiment_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -197,18 +197,18 @@ Creates a link between a protocol and a task
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
 task_id = 56 # int | 
 target_protocol_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -254,18 +254,18 @@ Creates a link between a sample and a task.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
 task_id = 56 # int | 
 target_sample_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -311,18 +311,18 @@ Deletes a task which is created by or assigned to the current user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
 task_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -366,19 +366,19 @@ Deletes multiple tasks which are created by or assigned to the current user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
-task_ids = [swagger_client.list[int]()] # list[int] | 
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
+task_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -421,18 +421,18 @@ Gets all the tasks for the current user. The list of task objects will consist o
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -494,18 +494,18 @@ Fetches a link between an experiment and a task.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
 task_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -561,18 +561,18 @@ Fetches all linked protocols of that task.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
 task_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -628,18 +628,18 @@ Fetches a link between an sample and a task.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
 task_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -695,18 +695,18 @@ Gets a single task which is created by or assigned to the current user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
 task_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -756,20 +756,20 @@ Updates a task. The required fields are 'assigneeID' and 'status'. If the assign
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TaskManagementApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.TaskManagementApi(elabjournal_client.ApiClient(configuration))
 task_id = 56 # int | 
-task = swagger_client.TaskUpdate() # TaskUpdate | 
+task = elabjournal_client.TaskUpdate() # TaskUpdate | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:

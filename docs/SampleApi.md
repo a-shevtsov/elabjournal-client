@@ -1,4 +1,4 @@
-# swagger_client.SampleApi
+# elabjournal_client.SampleApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -80,18 +80,18 @@ This call adds the given amount to the current quantity amounts of all samples i
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 series_id = 56 # int | 
 delta = 1.2 # float | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -135,18 +135,18 @@ Add an amount to a sample's quantity
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 delta = 1.2 # float | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -191,20 +191,20 @@ Add samples to a series
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_series_id = 56 # int | 
-sample_ids = [swagger_client.list[int]()] # list[int] | 
+sample_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -246,18 +246,18 @@ Archive a sample
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -299,18 +299,18 @@ Archive all samples in a series and remove the series
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_series_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -352,19 +352,19 @@ Archive multiple samples.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-input = swagger_client.ArchiveSamples() # ArchiveSamples | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+input = elabjournal_client.ArchiveSamples() # ArchiveSamples | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -405,19 +405,19 @@ Archive multiple samples
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-sample_ids = [swagger_client.list[int]()] # list[int] | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+sample_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -460,19 +460,19 @@ Change the locations of multiple samples in a box compartment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-updates = swagger_client.SampleLocationUpdates() # SampleLocationUpdates | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+updates = elabjournal_client.SampleLocationUpdates() # SampleLocationUpdates | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -515,18 +515,18 @@ This call changes the owner of the specified sample.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 user_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -572,19 +572,19 @@ This call changes the owner of the specified samples.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-input = swagger_client.ChangeSampleOwner() # ChangeSampleOwner | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+input = elabjournal_client.ChangeSampleOwner() # ChangeSampleOwner | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -627,20 +627,20 @@ This call changes the owner of the specified samples.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 user_id = 56 # int | 
-sample_ids = [swagger_client.list[int]()] # list[int] | 
+sample_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -684,18 +684,18 @@ This call removes the _checked out_ status of a sample.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -739,19 +739,19 @@ This call removes the _checked out_ status of the specified samples.    Any samp
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-sample_ids = [swagger_client.list[int]()] # list[int] | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+sample_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -795,18 +795,18 @@ This call marks a sample as _checked out_ while keeping its location reserved.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -850,19 +850,19 @@ This call marks samples as _checked out_ while keeping their locations reserved.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-sample_ids = [swagger_client.list[int]()] # list[int] | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+sample_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -906,18 +906,18 @@ This call clears the amount and unit specifications of a sample quantity. This c
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -962,18 +962,18 @@ This call clears the amount and unit specifications linked to the quantity of al
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 series_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -1017,20 +1017,20 @@ The storage position ranges for the cloned samples can be given in the storagePo
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
-options = swagger_client.SampleCloneOptions() # SampleCloneOptions | 
+options = elabjournal_client.SampleCloneOptions() # SampleCloneOptions | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1074,20 +1074,20 @@ The storage position ranges for the cloned samples can be given in the storagePo
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
-options = swagger_client.SampleCloneIntoSeriesOptions() # SampleCloneIntoSeriesOptions | 
+options = elabjournal_client.SampleCloneIntoSeriesOptions() # SampleCloneIntoSeriesOptions | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1132,20 +1132,20 @@ Copy a sample series to the given location
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_series_id = 56 # int | 
-options = swagger_client.CloneSeriesOptions() # CloneSeriesOptions | 
+options = elabjournal_client.CloneSeriesOptions() # CloneSeriesOptions | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1189,19 +1189,19 @@ By default this call will **not** create any meta fields even if there are requi
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-sample = swagger_client.SampleComplete() # SampleComplete | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+sample = elabjournal_client.SampleComplete() # SampleComplete | 
 auto_create_meta_defaults = true # bool |  (optional)
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -1247,18 +1247,18 @@ This call will create samples and meta fields using HL7 standards and based on t
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 hl7 = 'hl7_example' # str | 
 mapping = 'mapping_example' # str | 
 auto_create_meta_defaults = true # bool | 
@@ -1307,20 +1307,20 @@ If you create a sample meta field that is defined in the sample type, make sure 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
-dto = swagger_client.SampleMetaNew() # SampleMetaNew | 
+dto = elabjournal_client.SampleMetaNew() # SampleMetaNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1363,19 +1363,19 @@ Create a new sample series
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-series = swagger_client.SampleSeriesNewWithSampleIDs() # SampleSeriesNewWithSampleIDs | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+series = elabjournal_client.SampleSeriesNewWithSampleIDs() # SampleSeriesNewWithSampleIDs | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1417,19 +1417,19 @@ Create a new sample series, together with samples, sample meta fields and sample
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-series = swagger_client.SampleSeriesComplete() # SampleSeriesComplete | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+series = elabjournal_client.SampleSeriesComplete() # SampleSeriesComplete | 
 auto_create_meta_defaults = true # bool |  (optional)
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -1475,19 +1475,19 @@ By default this call will **not** create any meta fields even if there are requi
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-sample_and_metas = [swagger_client.SampleAndMeta()] # list[SampleAndMeta] | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+sample_and_metas = [elabjournal_client.SampleAndMeta()] # list[SampleAndMeta] | 
 auto_create_meta_defaults = true # bool |  (optional)
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -1531,18 +1531,18 @@ Delete a sample's quantity settings
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -1584,18 +1584,18 @@ Delete a sample's meta field
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 sample_meta_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -1639,18 +1639,18 @@ Get the available columns for the sample list table
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1691,18 +1691,18 @@ Get a sample's quantity settings
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -1747,18 +1747,18 @@ This call will also fetch archived samples.    $expand values (separate with com
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -1809,18 +1809,18 @@ This call will **not** fetch archived samples.    $expand values (separate with 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -1877,18 +1877,18 @@ With this endpoint you can retrieve all the experiment sections where the given 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -1943,18 +1943,18 @@ Get a sample's change logs
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -2021,18 +2021,18 @@ This call will also fetch a meta field from an archived sample.    A meta field 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 sample_meta_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
@@ -2085,18 +2085,18 @@ This call will also fetch meta fields from an archived sample.            Meta f
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -2153,18 +2153,18 @@ The result is the direct parent with its `parent` property containing the grandp
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -2213,18 +2213,18 @@ Get sample series
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -2277,18 +2277,18 @@ Get a sample series by id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_series_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -2339,18 +2339,18 @@ If the archived parameter isn't set, archived=false is automatically implied. To
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -2435,18 +2435,18 @@ Note that in case of an item with type SERIES the sample type and location are t
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -2518,18 +2518,18 @@ This call will also fetch archived samples.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 barcodes = ['barcodes_example'] # list[str] | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -2586,18 +2586,18 @@ This call will also fetch archived samples.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = [56] # list[int] | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -2648,18 +2648,18 @@ If the archived parameter isn't set, archived=false is automatically implied. To
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 names = ['names_example'] # list[str] | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -2718,18 +2718,18 @@ searchMethod can be either:      * similarity: structure similarity based on the
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 search_method = 'search_method_example' # str | 
 search_params_query = 'search_params_query_example' # str |  (optional)
 search_params_search_type = 'search_params_search_type_example' # str |  (optional)
@@ -2786,18 +2786,18 @@ You can provide an optional position within the storage layer with the following
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_series_id = 56 # int | 
 storage_layer_id = 56 # int | 
 body = NULL # object | 
@@ -2845,18 +2845,18 @@ For boxes you must provide a position with the following request body:  ```  {  
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 storage_layer_id = 56 # int | 
 body = NULL # object | 
@@ -2904,19 +2904,19 @@ For boxes you must provide a position with the following request body:  ```  {  
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-input = swagger_client.MoveSamplesToLayer() # MoveSamplesToLayer | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+input = elabjournal_client.MoveSamplesToLayer() # MoveSamplesToLayer | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -2959,18 +2959,18 @@ For boxes you must provide a position with the following request body:  ```  {  
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_ids = [56] # list[int] | 
 storage_layer_id = 56 # int | 
 body = NULL # object | 
@@ -3016,20 +3016,20 @@ Update a sample's quantity settings
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
-delta = swagger_client.SampleAmountNew() # SampleAmountNew | 
+delta = elabjournal_client.SampleAmountNew() # SampleAmountNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3072,20 +3072,20 @@ Update a sample's properties
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
-delta = swagger_client.SampleUpdateDocs() # SampleUpdateDocs |  (optional)
+delta = elabjournal_client.SampleUpdateDocs() # SampleUpdateDocs |  (optional)
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3129,21 +3129,21 @@ Use this call to update a meta field's value, or linked files/samples.    In cas
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 sample_meta_id = 56 # int | 
-delta = swagger_client.SampleMeta() # SampleMeta | 
+delta = elabjournal_client.SampleMeta() # SampleMeta | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3186,20 +3186,20 @@ Update a sampleseries properties
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_series_id = 56 # int | 
-delta = swagger_client.SampleSeriesNewWithSampleIDs() # SampleSeriesNewWithSampleIDs | 
+delta = elabjournal_client.SampleSeriesNewWithSampleIDs() # SampleSeriesNewWithSampleIDs | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3243,20 +3243,20 @@ This call updates all the samples within a sample series.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_series_id = 56 # int | 
-sample = swagger_client.UpdateSampleSeriesCompleteDocs() # UpdateSampleSeriesCompleteDocs |  (optional)
+sample = elabjournal_client.UpdateSampleSeriesCompleteDocs() # UpdateSampleSeriesCompleteDocs |  (optional)
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3298,20 +3298,20 @@ Add or replace a sample's quantity settings
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
-quantity = swagger_client.SampleAmountNew() # SampleAmountNew | 
+quantity = elabjournal_client.SampleAmountNew() # SampleAmountNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3356,20 +3356,20 @@ If you create a sample meta field that is defined in the sample type, make sure 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
-dto = swagger_client.SampleMetaNew() # SampleMetaNew | 
+dto = elabjournal_client.SampleMetaNew() # SampleMetaNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3414,21 +3414,21 @@ Use this call to update a meta field's value, or linked files/samples.    In cas
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 new_value = 'new_value_example' # str | 
 sample_type_meta_id = 56 # int | 
-sample_ids = [swagger_client.list[int]()] # list[int] | 
+sample_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3473,20 +3473,20 @@ If you create a sample meta field that is defined in the sample type, make sure 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
-dtos = [swagger_client.SampleMetaNew()] # list[SampleMetaNew] | 
+dtos = [elabjournal_client.SampleMetaNew()] # list[SampleMetaNew] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3529,20 +3529,20 @@ Add or replace quantity settings for all samples in a series
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 series_id = 56 # int | 
-quantity = swagger_client.SampleAmountNew() # SampleAmountNew | 
+quantity = elabjournal_client.SampleAmountNew() # SampleAmountNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3587,20 +3587,20 @@ When all samples are removed from a series then the series is automatically disb
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_series_id = 56 # int | 
-sample_ids = [swagger_client.list[int]()] # list[int] | 
+sample_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3644,19 +3644,19 @@ This call removes the location from specified samples.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
-sample_ids = [swagger_client.list[int]()] # list[int] | 
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
+sample_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3699,18 +3699,18 @@ This call subtracts the given amount from the current quantity amounts of all sa
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 series_id = 56 # int | 
 delta = 1.2 # float | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -3754,18 +3754,18 @@ Subtract an amount from a sample's quantity
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SampleApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SampleApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
 delta = 1.2 # float | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)

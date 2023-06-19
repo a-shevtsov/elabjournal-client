@@ -1,4 +1,4 @@
-# swagger_client.CurrencyApi
+# elabjournal_client.CurrencyApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -17,18 +17,18 @@ Get the list of currencies available in elab
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.CurrencyApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.CurrencyApi(elabjournal_client.ApiClient(configuration))
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -69,18 +69,18 @@ Get the list of currencie symbols available in elab
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.CurrencyApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.CurrencyApi(elabjournal_client.ApiClient(configuration))
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:

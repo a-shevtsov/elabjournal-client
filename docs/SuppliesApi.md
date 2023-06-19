@@ -1,4 +1,4 @@
-# swagger_client.SuppliesApi
+# elabjournal_client.SuppliesApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -21,18 +21,18 @@ Gets catalog items associated with the current working group. The data can be fi
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SuppliesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SuppliesApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -95,20 +95,20 @@ Add a new order for the given sample, catalogItemID with a given amount
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SuppliesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SuppliesApi(elabjournal_client.ApiClient(configuration))
 sample_id = 56 # int | 
-dto = swagger_client.ShoppingItemNew() # ShoppingItemNew | 
+dto = elabjournal_client.ShoppingItemNew() # ShoppingItemNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -153,18 +153,18 @@ Retrieves a paged list of shopping items associated with the current working gro
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SuppliesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SuppliesApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -225,20 +225,20 @@ Update the order of the given orderID
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SuppliesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.SuppliesApi(elabjournal_client.ApiClient(configuration))
 order_id = 56 # int | 
-dto = swagger_client.ShoppingItemUpdate() # ShoppingItemUpdate | 
+dto = elabjournal_client.ShoppingItemUpdate() # ShoppingItemUpdate | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:

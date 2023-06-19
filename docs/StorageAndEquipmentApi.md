@@ -1,4 +1,4 @@
-# swagger_client.StorageAndEquipmentApi
+# elabjournal_client.StorageAndEquipmentApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -81,20 +81,20 @@ This call assigns a compartment. The assigned compartments descendants will also
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
-assignment = swagger_client.AssignmentNew() # AssignmentNew | 
+assignment = elabjournal_client.AssignmentNew() # AssignmentNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -137,18 +137,18 @@ Delete a compartment assignment.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 assignment_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -192,18 +192,18 @@ This call gets the active assignment for a compartment.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -246,20 +246,20 @@ Update a compartment assignment.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 assignment_id = 56 # int | 
-assignment = swagger_client.AssignmentNew() # AssignmentNew | 
+assignment = elabjournal_client.AssignmentNew() # AssignmentNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -301,20 +301,20 @@ Create an equipment booking.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 equipment_id = 56 # int | 
-booking = swagger_client.BookingNew() # BookingNew | 
+booking = elabjournal_client.BookingNew() # BookingNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -357,18 +357,18 @@ Delete an equipment booking.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 booking_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -410,18 +410,18 @@ Get equipment bookings.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 equipment_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -479,20 +479,20 @@ Update an equipment booking.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 booking_id = 56 # int | 
-booking = swagger_client.BookingNew() # BookingNew | 
+booking = elabjournal_client.BookingNew() # BookingNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -536,19 +536,19 @@ This call will delete multiple equipment meta fields. To pass multiple storageMe
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
-storage_meta_ids = [swagger_client.list[int]()] # list[int] | 
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
+storage_meta_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -591,19 +591,19 @@ If you update a meta with type FILE you must supply a valid metaFileID of the fi
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
-delta = [swagger_client.StorageMeta()] # list[StorageMeta] | 
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
+delta = [elabjournal_client.StorageMeta()] # list[StorageMeta] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -646,19 +646,19 @@ If you create a meta with type FILE you must supply a valid metaFileID of the fi
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
-dto = [swagger_client.StorageMetaNewBulk()] # list[StorageMetaNewBulk] | 
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
+dto = [elabjournal_client.StorageMetaNewBulk()] # list[StorageMetaNewBulk] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -700,20 +700,20 @@ Create a new compartment within an existing compartment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
-storage_layer_new = swagger_client.StorageLayerNew() # StorageLayerNew | 
+storage_layer_new = elabjournal_client.StorageLayerNew() # StorageLayerNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -756,20 +756,20 @@ Create multiple new compartments within an existing compartment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
-layers = swagger_client.MultipleStorageLayerNew() # MultipleStorageLayerNew | 
+layers = elabjournal_client.MultipleStorageLayerNew() # MultipleStorageLayerNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -814,19 +814,19 @@ Create a new storage unit/equipment based on the specified type
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
-storage_new = swagger_client.StorageNew() # StorageNew | 
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
+storage_new = elabjournal_client.StorageNew() # StorageNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -868,20 +868,20 @@ Create a new compartment definition for a storage unit. This is a template for c
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
-storage_layer_definition_new = swagger_client.StorageLayerDefinitionNew() # StorageLayerDefinitionNew | 
+storage_layer_definition_new = elabjournal_client.StorageLayerDefinitionNew() # StorageLayerDefinitionNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -926,20 +926,20 @@ Reservations must be created per compartment. For equipment simply use its main 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
-dto = swagger_client.StorageLayerReservationNew() # StorageLayerReservationNew | 
+dto = elabjournal_client.StorageLayerReservationNew() # StorageLayerReservationNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -982,20 +982,20 @@ Add a userID as manager to a storage unit/equipment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
-dto = swagger_client.StorageManagerNew() # StorageManagerNew | 
+dto = elabjournal_client.StorageManagerNew() # StorageManagerNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1037,20 +1037,20 @@ Add multiple managers by userID to a storage unit/equipment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
-user_ids = [swagger_client.list[int]()] # list[int] | 
+user_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1094,20 +1094,20 @@ Create a new equipment or storage unit meta field
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
-dto = swagger_client.StorageMetaNew() # StorageMetaNew | 
+dto = elabjournal_client.StorageMetaNew() # StorageMetaNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1152,19 +1152,19 @@ Create a new equipment type
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
-dto = swagger_client.StorageTypeNew() # StorageTypeNew | 
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
+dto = elabjournal_client.StorageTypeNew() # StorageTypeNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1208,20 +1208,20 @@ Create a new storage unit or equipment validation
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
-dto = swagger_client.StorageValidationNew() # StorageValidationNew | 
+dto = elabjournal_client.StorageValidationNew() # StorageValidationNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1266,18 +1266,18 @@ If the storage layer contains samples, use the deleteStorageLayerSamplesBehaviou
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 archive_samples = true # bool | deprecated (optional)
 delete_storage_layer_samples_behaviour = 'delete_storage_layer_samples_behaviour_example' # str |  (optional)
@@ -1325,18 +1325,18 @@ Only a storage manager or the user who originally created the reservation may de
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 storage_layer_reservation_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -1380,18 +1380,18 @@ Remove a manager from a storage unit/equipment by userID
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 user_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -1435,20 +1435,20 @@ Remove multiple managers from a storage unit/equipment by userID
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
-user_ids = [swagger_client.list[int]()] # list[int] | 
+user_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -1490,18 +1490,18 @@ Delete an equipment meta field
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 storage_meta_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -1545,18 +1545,18 @@ Delete an equipment validation
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 storage_validation_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -1602,18 +1602,18 @@ This call finds the first free location within the storage unit's sample boxes. 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 consecutive_space = 56 # int |  (optional)
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -1660,18 +1660,18 @@ This call finds the first free location in the specified storage layer (if it's 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 consecutive_space = 56 # int |  (optional)
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -1718,18 +1718,18 @@ Get the storage compartments of a compartment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -1792,18 +1792,18 @@ Get the storage compartments of several parent compartments
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 parent_storage_layer_ids = [56] # list[int] | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -1860,18 +1860,18 @@ This endpoint can be used to find a empty storage compartment in a storage tree 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 storage_layer_definition_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -1918,18 +1918,18 @@ Note: this call only shows logs for equipment, not storage units.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -1984,18 +1984,18 @@ Get a storage unit's sample logs
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -2062,18 +2062,18 @@ Get storage units/equipment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -2138,18 +2138,18 @@ Get a storage unit/equipment by id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -2200,18 +2200,18 @@ Get the storage compartment ancestry of a compartment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -2262,18 +2262,18 @@ Get a storage unit/equipment compartment by id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -2322,18 +2322,18 @@ Get a compartment definition by id.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_definition_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -2384,18 +2384,18 @@ Get all compartment definitions for a storage unit.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -2454,18 +2454,18 @@ Note: these are a subset of a storage unit's logs dealing with this specific com
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -2520,18 +2520,18 @@ Get a storage/equipment compartment reservation by id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 storage_layer_reservation_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
@@ -2582,18 +2582,18 @@ Get all reservations of a storage/equipment compartment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -2667,18 +2667,18 @@ $expand values (separate with a comma for multiple expands):  * location  * quan
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -2747,18 +2747,18 @@ Get usage information on a specific storagelayer...
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storagelayer_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -2803,18 +2803,18 @@ Get storage unit/equipment compartments
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -2879,18 +2879,18 @@ Get a storage unit/equipment compartment by its barcode
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 barcodes = ['barcodes_example'] # list[str] | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -2947,18 +2947,18 @@ Note: this call only shows logs for storage units, not equipment.    The logs in
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -3013,18 +3013,18 @@ Get all of a storage unit or equipment managers
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -3079,18 +3079,18 @@ Get an equipment or storage unit meta field by id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 storage_meta_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
@@ -3141,18 +3141,18 @@ Get all of a equipment or storage unit meta fields
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -3209,18 +3209,18 @@ This call downloads an equipment report .csv file. Reports will only work with e
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 start = '2013-10-20T19:20:30+01:00' # datetime | 
 end = '2013-10-20T19:20:30+01:00' # datetime | 
@@ -3268,18 +3268,18 @@ $expand values (separate with a comma for multiple expands):  * location  * quan
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -3350,18 +3350,18 @@ Get statistics for a storage unit
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -3406,18 +3406,18 @@ Get a storage unit/equipment type by id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_type_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 view_id = 'view_id_example' # str | Specify a viewID to customize the result (optional)
@@ -3468,18 +3468,18 @@ Get all storage unit/equipment types
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -3532,18 +3532,18 @@ Get an equipment validation by id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 storage_validation_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
@@ -3594,18 +3594,18 @@ Get all of an equipment's validations
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
@@ -3662,18 +3662,18 @@ Note: you can not move a compartment into a box, only into other compartment typ
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 new_parent_layer_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -3717,20 +3717,20 @@ Update properties of a storage unit or equipment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
-delta = swagger_client.StorageNew() # StorageNew | 
+delta = elabjournal_client.StorageNew() # StorageNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3772,20 +3772,20 @@ Update a storage compartment's properties
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
-delta = swagger_client.StorageLayerUpdate() # StorageLayerUpdate | 
+delta = elabjournal_client.StorageLayerUpdate() # StorageLayerUpdate | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3829,21 +3829,21 @@ To change to a permanent reservation set the end date/time to \"9999-12-31T00:00
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_layer_id = 56 # int | 
 storage_layer_reservation_id = 56 # int | 
-delta = swagger_client.StorageLayerReservationNew() # StorageLayerReservationNew | 
+delta = elabjournal_client.StorageLayerReservationNew() # StorageLayerReservationNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3888,21 +3888,21 @@ If you update a meta with type FILE you must supply a valid metaFileID of the fi
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 storage_meta_id = 56 # int | 
-delta = swagger_client.StorageMeta() # StorageMeta | 
+delta = elabjournal_client.StorageMeta() # StorageMeta | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -3945,21 +3945,21 @@ Update an equipment validation properties
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.StorageAndEquipmentApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.StorageAndEquipmentApi(elabjournal_client.ApiClient(configuration))
 storage_id = 56 # int | 
 storage_validation_id = 56 # int | 
-delta = swagger_client.StorageValidationNew() # StorageValidationNew | 
+delta = elabjournal_client.StorageValidationNew() # StorageValidationNew | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:

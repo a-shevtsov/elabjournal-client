@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.task_large import TaskLarge  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.task_large import TaskLarge  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestTaskLarge(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestTaskLarge(unittest.TestCase):
     def testTaskLarge(self):
         """Test TaskLarge"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.task_large.TaskLarge()  # noqa: E501
+        # model = elabjournal_client.models.task_large.TaskLarge()  # noqa: E501
         pass
 
 

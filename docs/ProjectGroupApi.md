@@ -1,4 +1,4 @@
-# swagger_client.ProjectGroupApi
+# elabjournal_client.ProjectGroupApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -17,18 +17,18 @@ Get projectgroup for the specified user ID
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectGroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ProjectGroupApi(elabjournal_client.ApiClient(configuration))
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
 sort = 'sort_example' # str | Sort by a specific field (optional)
 page = 'page_example' # str | Set the current page (0 based) (optional)
@@ -89,20 +89,20 @@ Set/Unset the specified user as project group manager
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ProjectGroupApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ProjectGroupApi(elabjournal_client.ApiClient(configuration))
 project_group_id = 56 # int | 
-project_group_member_dto = swagger_client.ProjectGroupMemberDTO() # ProjectGroupMemberDTO | 
+project_group_member_dto = elabjournal_client.ProjectGroupMemberDTO() # ProjectGroupMemberDTO | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:

@@ -1,4 +1,4 @@
-# swagger_client.NotificationApi
+# elabjournal_client.NotificationApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -22,19 +22,19 @@ Supply the notification IDs to set to deleted in the body as an array of integer
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.NotificationApi(swagger_client.ApiClient(configuration))
-notification_ids = [swagger_client.list[int]()] # list[int] | 
+api_instance = elabjournal_client.NotificationApi(elabjournal_client.ApiClient(configuration))
+notification_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -77,18 +77,18 @@ The notificationsIDs array should be a comma-separated list (not line-separated!
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.NotificationApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.NotificationApi(elabjournal_client.ApiClient(configuration))
 notification_ids = [56] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -131,18 +131,18 @@ Get digest information for all notifications
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.NotificationApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.NotificationApi(elabjournal_client.ApiClient(configuration))
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -185,19 +185,19 @@ Send a notification  - [int]userID, [string]message, [NotificationPriority]prior
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.NotificationApi(swagger_client.ApiClient(configuration))
-notification = swagger_client.NotificationForUser() # NotificationForUser | 
+api_instance = elabjournal_client.NotificationApi(elabjournal_client.ApiClient(configuration))
+notification = elabjournal_client.NotificationForUser() # NotificationForUser | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -240,19 +240,19 @@ Supply the notification IDs to set to read in the body as an array of integers. 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.NotificationApi(swagger_client.ApiClient(configuration))
-notification_ids = [swagger_client.list[int]()] # list[int] | 
+api_instance = elabjournal_client.NotificationApi(elabjournal_client.ApiClient(configuration))
+notification_ids = [elabjournal_client.list[int]()] # list[int] | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.plugin_assist_data import PluginAssistData  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.plugin_assist_data import PluginAssistData  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestPluginAssistData(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestPluginAssistData(unittest.TestCase):
     def testPluginAssistData(self):
         """Test PluginAssistData"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.plugin_assist_data.PluginAssistData()  # noqa: E501
+        # model = elabjournal_client.models.plugin_assist_data.PluginAssistData()  # noqa: E501
         pass
 
 

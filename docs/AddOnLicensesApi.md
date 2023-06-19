@@ -1,4 +1,4 @@
-# swagger_client.AddOnLicensesApi
+# elabjournal_client.AddOnLicensesApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -25,18 +25,18 @@ Create license type for add-on with given rootVar
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnLicensesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnLicensesApi(elabjournal_client.ApiClient(configuration))
 license_type = 'license_type_example' # str | 
 root_var = 'root_var_example' # str | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -81,18 +81,18 @@ Delete link between license type and rootVar
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnLicensesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnLicensesApi(elabjournal_client.ApiClient(configuration))
 license_type = 'license_type_example' # str | 
 root_var = 'root_var_example' # str | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -137,18 +137,18 @@ Retrieve all expired add-on licenses
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnLicensesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnLicensesApi(elabjournal_client.ApiClient(configuration))
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -189,18 +189,18 @@ Retrieve license for add-on with given rootVar
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnLicensesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnLicensesApi(elabjournal_client.ApiClient(configuration))
 root_var = 'root_var_example' # str | 
 scope = 'scope_example' # str |  (optional)
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -245,18 +245,18 @@ Retrieve license type for add-on with given rootVar
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnLicensesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnLicensesApi(elabjournal_client.ApiClient(configuration))
 root_var = 'root_var_example' # str | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -299,18 +299,18 @@ Retrieve all license types
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnLicensesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnLicensesApi(elabjournal_client.ApiClient(configuration))
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -351,18 +351,18 @@ Retrieve all add-on licenses
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnLicensesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnLicensesApi(elabjournal_client.ApiClient(configuration))
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
 try:
@@ -403,18 +403,18 @@ Purchase license for add-on with given rootVar
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnLicensesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnLicensesApi(elabjournal_client.ApiClient(configuration))
 root_var = 'root_var_example' # str | 
 body = NULL # object | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -459,18 +459,18 @@ Start a trial for add-on with given rootVar
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnLicensesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnLicensesApi(elabjournal_client.ApiClient(configuration))
 root_var = 'root_var_example' # str | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
 
@@ -513,18 +513,18 @@ Update license type for add-on with given rootVar
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AddOnLicensesApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.AddOnLicensesApi(elabjournal_client.ApiClient(configuration))
 license_type = 'license_type_example' # str | 
 root_var = 'root_var_example' # str | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)

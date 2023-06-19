@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.user_small import UserSmall  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.user_small import UserSmall  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestUserSmall(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestUserSmall(unittest.TestCase):
     def testUserSmall(self):
         """Test UserSmall"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.user_small.UserSmall()  # noqa: E501
+        # model = elabjournal_client.models.user_small.UserSmall()  # noqa: E501
         pass
 
 

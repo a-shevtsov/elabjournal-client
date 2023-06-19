@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.multiple_storage_layer_new import MultipleStorageLayerNew  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.multiple_storage_layer_new import MultipleStorageLayerNew  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestMultipleStorageLayerNew(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestMultipleStorageLayerNew(unittest.TestCase):
     def testMultipleStorageLayerNew(self):
         """Test MultipleStorageLayerNew"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.multiple_storage_layer_new.MultipleStorageLayerNew()  # noqa: E501
+        # model = elabjournal_client.models.multiple_storage_layer_new.MultipleStorageLayerNew()  # noqa: E501
         pass
 
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.workstation_file_upload_status_dto import WorkstationFileUploadStatusDto  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.workstation_file_upload_status_dto import WorkstationFileUploadStatusDto  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestWorkstationFileUploadStatusDto(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestWorkstationFileUploadStatusDto(unittest.TestCase):
     def testWorkstationFileUploadStatusDto(self):
         """Test WorkstationFileUploadStatusDto"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.workstation_file_upload_status_dto.WorkstationFileUploadStatusDto()  # noqa: E501
+        # model = elabjournal_client.models.workstation_file_upload_status_dto.WorkstationFileUploadStatusDto()  # noqa: E501
         pass
 
 

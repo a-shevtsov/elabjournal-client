@@ -1,4 +1,4 @@
-# swagger_client.ExperimentSectionsDeprecatedCallsApi
+# elabjournal_client.ExperimentSectionsDeprecatedCallsApi
 
 All URIs are relative to *https://www.elabjournal.com*
 
@@ -29,18 +29,18 @@ Download a marvinJS image
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -87,18 +87,18 @@ Download a marvinJS image in Base64 format
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -145,18 +145,18 @@ Download the canvas image from a CANVAS section
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
@@ -209,18 +209,18 @@ Download the excel file from an EXCEL section
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -267,18 +267,18 @@ Download the preview image from an EXCEL section
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -325,18 +325,18 @@ Download a file from a FILES section
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 experiment_file_id = 56 # int | 
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
@@ -385,18 +385,18 @@ Download an image from an IMAGE section
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 experiment_file_id = 56 # int | 
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
@@ -451,18 +451,18 @@ Get the content from a text section
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -509,18 +509,18 @@ Get a full HTML page from a section
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
 x_requested_with = 'Swagger' # str |  (optional) (default to Swagger)
@@ -567,18 +567,18 @@ Get file list of a FILE section
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
@@ -637,18 +637,18 @@ Get image list of an IMAGE section
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)
@@ -707,18 +707,18 @@ Get sample list from a SAMPLESIN or SAMPLESOUT section
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: apiKey
-configuration = swagger_client.Configuration()
+configuration = elabjournal_client.Configuration()
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.ExperimentSectionsDeprecatedCallsApi(swagger_client.ApiClient(configuration))
+api_instance = elabjournal_client.ExperimentSectionsDeprecatedCallsApi(elabjournal_client.ApiClient(configuration))
 exp_journal_id = 56 # int | 
 experiment_id = 56 # int | 
 expand = 'expand_example' # str | Expand an ID field to an object (optional)

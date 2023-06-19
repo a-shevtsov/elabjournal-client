@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.scoped_bundle import ScopedBundle  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.scoped_bundle import ScopedBundle  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestScopedBundle(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestScopedBundle(unittest.TestCase):
     def testScopedBundle(self):
         """Test ScopedBundle"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.scoped_bundle.ScopedBundle()  # noqa: E501
+        # model = elabjournal_client.models.scoped_bundle.ScopedBundle()  # noqa: E501
         pass
 
 

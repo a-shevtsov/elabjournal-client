@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.system_setting_new import SystemSettingNew  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.system_setting_new import SystemSettingNew  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestSystemSettingNew(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestSystemSettingNew(unittest.TestCase):
     def testSystemSettingNew(self):
         """Test SystemSettingNew"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.system_setting_new.SystemSettingNew()  # noqa: E501
+        # model = elabjournal_client.models.system_setting_new.SystemSettingNew()  # noqa: E501
         pass
 
 

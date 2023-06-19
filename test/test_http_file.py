@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.http_file import HttpFile  # noqa: E501
-from swagger_client.rest import ApiException
+import elabjournal_client
+from elabjournal_client.models.http_file import HttpFile  # noqa: E501
+from elabjournal_client.rest import ApiException
 
 
 class TestHttpFile(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestHttpFile(unittest.TestCase):
     def testHttpFile(self):
         """Test HttpFile"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.http_file.HttpFile()  # noqa: E501
+        # model = elabjournal_client.models.http_file.HttpFile()  # noqa: E501
         pass
 
 
