@@ -59,12 +59,6 @@ class RESTClientObject(object):
         # maxsize is the number of requests to host that are allowed in parallel  # noqa: E501
         # Custom SSL certificates and client certificates: http://urllib3.readthedocs.io/en/latest/advanced-usage.html  # noqa: E501
 
-        # cert_reqs
-        if configuration.verify_ssl:
-            cert_reqs = ssl.CERT_REQUIRED
-        else:
-            cert_reqs = ssl.CERT_NONE
-
         # ca_certs
         if configuration.ssl_ca_cert:
             ca_certs = configuration.ssl_ca_cert
@@ -87,7 +81,7 @@ class RESTClientObject(object):
             self.pool_manager = urllib3.ProxyManager(
                 num_pools=pools_size,
                 maxsize=maxsize,
-                cert_reqs=cert_reqs,
+                cert_reqs=ssl.CERT_NONE,
                 ca_certs=ca_certs,
                 cert_file=configuration.cert_file,
                 key_file=configuration.key_file,
@@ -98,7 +92,7 @@ class RESTClientObject(object):
             self.pool_manager = urllib3.PoolManager(
                 num_pools=pools_size,
                 maxsize=maxsize,
-                cert_reqs=cert_reqs,
+                cert_reqs=ssl.CERT_NONE,
                 ca_certs=ca_certs,
                 cert_file=configuration.cert_file,
                 key_file=configuration.key_file,
